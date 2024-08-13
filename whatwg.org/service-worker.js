@@ -1,24 +1,27 @@
 "use strict";
 
-self.cacheKey = "v3";
+self.cacheKey = "v6";
 self.toCache = [
   "/img/arrow.svg",
-  "/img/bird-webpage.svg",
   "/img/checker.svg",
   "/img/chat.svg",
   "/img/participate.svg",
+  "/img/x.svg",
   "/validator/",
   "/faq",
   "/chat",
-  "/policies",
-  "/principles",
   "/style-guide",
   "/ipr-policy",
   "/workstream-policy",
-  "/code-of-conduct",
-  "/working-mode",
   "/sg-agreement",
-  "/sg-policy"
+  "/invitation-policy",
+  "/sg-policy",
+  "/code-of-conduct",
+  "/principles",
+  "/privacy-policy",
+  "/policies",
+  "/working-mode",
+  "/stages"
 ];
 
 importScripts("https://resources.whatwg.org/website-service-worker.js");
